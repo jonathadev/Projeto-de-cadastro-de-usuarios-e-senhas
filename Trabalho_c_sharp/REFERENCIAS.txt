@@ -1,0 +1,13 @@
+tiago c sharp crud grid
+https://www.youtube.com/watch?v=Oqoq94jtXMo
+
+CRUD - Cadastro de Alunos Apresentação
+https://www.youtube.com/watch?v=Zc4k3Dp01ko&list=PLaTQh6QSZIFevHtQjFW7z2G-JLPFFNkHu
+
+http://www.devmedia.com.br/criando-um-crud-em-c/30384
+
+file:///C:/Users/ADM/Downloads/cadastrodeclientesemc-130415084204-phpapp02.pdf
+
+
+esse explica melhor C# - Aula 5 Cadastro de Produtos
+https://www.youtube.com/watch?v=1tELum48Bc0

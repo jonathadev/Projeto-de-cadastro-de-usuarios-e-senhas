@@ -1,0 +1,32 @@
+create database exame;
+
+use exame;
+
+create table fornecedor(
+id_fornecedor int not null identity,
+razao varchar(50) not null,
+cidade varchar(40) not null,
+cnpj char(18) not null,
+
+constraint pk_fornecedor primary key (id_fornecedor)
+);
+
+create table produto(
+id_produto int not null identity,
+nome varchar (50), 
+valor float,
+id_fornecedor int not null,
+
+constraint pk_id_produto primary key (id_produto),
+constraint fk_produto_fornecedor foreign key (id_fornecedor)
+references fornecedor (id_fornecedor)
+
+);
+
+create table login
+(
+login varchar(10) ,
+senha varchar (10),
+)
+
+insert into login  values ('admin', 'admin');

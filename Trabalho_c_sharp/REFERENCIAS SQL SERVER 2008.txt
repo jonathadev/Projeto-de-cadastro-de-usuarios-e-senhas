@@ -1,0 +1,11 @@
+
+video instalacao duas ferramentas  sql server express
+
+https://www.youtube.com/watch?v=pa-tQ64EjnE
+
+
+
+
+se carro erro chamada remota fechar progama, ligar os servicos  autimatico e iniciar
+
+http://stackoverflow.com/questions/11589964/sql-server-agent-gives-remote-procedure-call-failed-0x800706be

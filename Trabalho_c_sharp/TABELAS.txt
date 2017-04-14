@@ -1,0 +1,9 @@
+CATEGORIA
+id_categoria int AI PK NN
+ds_categoria varchar(50)
+
+PRODUTO
+id_produto int AI PK NN
+ds_produto varchar(80)
+valor decimal(15,2)
+id_categoria int FK NN

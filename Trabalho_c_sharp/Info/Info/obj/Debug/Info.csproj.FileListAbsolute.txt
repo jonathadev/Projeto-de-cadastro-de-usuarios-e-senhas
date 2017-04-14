@@ -1,0 +1,84 @@
+c:\users\adm\documents\visual studio 2013\Projects\Info\Info\bin\Debug\Info.exe.config
+c:\users\adm\documents\visual studio 2013\Projects\Info\Info\bin\Debug\Info.exe
+c:\users\adm\documents\visual studio 2013\Projects\Info\Info\bin\Debug\Info.pdb
+c:\users\adm\documents\visual studio 2013\Projects\Info\Info\obj\Debug\Info.Properties.Resources.resources
+c:\users\adm\documents\visual studio 2013\Projects\Info\Info\obj\Debug\Info.csproj.GenerateResource.Cache
+c:\users\adm\documents\visual studio 2013\Projects\Info\Info\obj\Debug\Info.exe
+c:\users\adm\documents\visual studio 2013\Projects\Info\Info\obj\Debug\Info.pdb
+C:\Users\ADM\Documents\Visual Studio 2013\Projects\Info\Info\obj\Debug\Info.frmPrincipal.resources
+C:\Users\ADM\Documents\Visual Studio 2013\Projects\Info\Info\obj\Debug\Info.csprojResolveAssemblyReference.cache
+C:\Users\ADM\Documents\Visual Studio 2013\Projects\Info\Info\bin\Debug\Info.DAL.dll
+C:\Users\ADM\Documents\Visual Studio 2013\Projects\Info\Info\bin\Debug\Info.DAL.pdb
+C:\Users\ADM\Documents\Visual Studio 2013\Projects\Info\Info\obj\Debug\Info.FrmCategoria.resources
+C:\Users\ADM\Documents\Visual Studio 2013\Projects\Info\Info\obj\Debug\Info.FrmProduto.resources
+C:\Users\ADM\Documents\Visual Studio 2013\Projects\Info\Info\obj\Debug\Info.FrmProdutosPorCategoria.resources
+C:\Users\ADM\Documents\Visual Studio 2013\Projects\Info\Info\obj\Debug\Info.FrmPessoaFisica.resources
+C:\Users\ADM\Documents\Visual Studio 2013\Projects\Info\Info\obj\Debug\Info.FrmVenda.resources
+C:\Users\ADM\Documents\Visual Studio 2013\Projects\Info\Info\obj\Debug\Info.FrmLogin.resources
+C:\Users\ADM\Documents\Visual Studio 2013\Projects\Info\Info\obj\Debug\Info.FrmSplash.resources
+C:\Users\ADM\Documents\Visual Studio 2013\Projects\Info\Info\obj\Debug\Info.FrmRelatorioProdutos.resources
+C:\Users\ADM\Documents\Visual Studio 2013\Projects\Info\Info\obj\Debug\Info.FrmListaCategorias.resources
+C:\Users\ADM\Documents\Visual Studio 2013\Projects\Info\Info\obj\Debug\Info.FrmRelatorioProdutosCategoria.resources
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info\bin\Debug\Info.exe.config
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info\bin\Debug\Info.exe
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info\bin\Debug\Info.pdb
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info\bin\Debug\Info.DAL.dll
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info\bin\Debug\Info.DAL.pdb
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info\obj\Debug\Info.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info\obj\Debug\Info.FrmCategoria.resources
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info\obj\Debug\Info.FrmListaCategorias.resources
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info\obj\Debug\Info.FrmLogin.resources
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info\obj\Debug\Info.FrmPessoaFisica.resources
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info\obj\Debug\Info.frmPrincipal.resources
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info\obj\Debug\Info.FrmProduto.resources
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info\obj\Debug\Info.FrmProdutosPorCategoria.resources
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info\obj\Debug\Info.FrmRelatorioProdutos.resources
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info\obj\Debug\Info.FrmRelatorioProdutosCategoria.resources
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info\obj\Debug\Info.FrmSplash.resources
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info\obj\Debug\Info.FrmVenda.resources
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info\obj\Debug\Info.Properties.Resources.resources
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info\obj\Debug\Info.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info\obj\Debug\Info.exe
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info\obj\Debug\Info.pdb
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info\bin\Debug\Info.exe.config
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info\obj\Debug\Info.exe
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info\obj\Debug\Info.pdb
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info\bin\Debug\Info.exe
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info\bin\Debug\Info.pdb
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info\bin\Debug\Info.DAL.dll
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info\bin\Debug\Info.DAL.pdb
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info\obj\Debug\Info.csprojResolveAssemblyReference.cache
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info\obj\Debug\Info.FrmCategoria.resources
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info\obj\Debug\Info.FrmListaCategorias.resources
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info\obj\Debug\Info.FrmLogin.resources
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info\obj\Debug\Info.FrmPessoaFisica.resources
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info\obj\Debug\Info.frmPrincipal.resources
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info\obj\Debug\Info.FrmProduto.resources
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info\obj\Debug\Info.FrmProdutosPorCategoria.resources
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info\obj\Debug\Info.FrmRelatorioProdutos.resources
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info\obj\Debug\Info.FrmRelatorioProdutosCategoria.resources
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info\obj\Debug\Info.FrmSplash.resources
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info\obj\Debug\Info.FrmVenda.resources
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info\obj\Debug\Info.Properties.Resources.resources
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info\obj\Debug\Info.csproj.GenerateResource.Cache
+C:\Users\ADM\Desktop\TRABALHO_C_SHARP\Trabalho_c_sharp\Info\Info\bin\Debug\Info.exe.config
+C:\Users\ADM\Desktop\TRABALHO_C_SHARP\Trabalho_c_sharp\Info\Info\obj\Debug\Info.exe
+C:\Users\ADM\Desktop\TRABALHO_C_SHARP\Trabalho_c_sharp\Info\Info\obj\Debug\Info.pdb
+C:\Users\ADM\Desktop\TRABALHO_C_SHARP\Trabalho_c_sharp\Info\Info\bin\Debug\Info.exe
+C:\Users\ADM\Desktop\TRABALHO_C_SHARP\Trabalho_c_sharp\Info\Info\bin\Debug\Info.pdb
+C:\Users\ADM\Desktop\TRABALHO_C_SHARP\Trabalho_c_sharp\Info\Info\bin\Debug\Info.DAL.dll
+C:\Users\ADM\Desktop\TRABALHO_C_SHARP\Trabalho_c_sharp\Info\Info\bin\Debug\Info.DAL.pdb
+C:\Users\ADM\Desktop\TRABALHO_C_SHARP\Trabalho_c_sharp\Info\Info\obj\Debug\Info.csprojResolveAssemblyReference.cache
+C:\Users\ADM\Desktop\TRABALHO_C_SHARP\Trabalho_c_sharp\Info\Info\obj\Debug\Info.FrmCategoria.resources
+C:\Users\ADM\Desktop\TRABALHO_C_SHARP\Trabalho_c_sharp\Info\Info\obj\Debug\Info.FrmListaCategorias.resources
+C:\Users\ADM\Desktop\TRABALHO_C_SHARP\Trabalho_c_sharp\Info\Info\obj\Debug\Info.FrmLogin.resources
+C:\Users\ADM\Desktop\TRABALHO_C_SHARP\Trabalho_c_sharp\Info\Info\obj\Debug\Info.FrmPessoaFisica.resources
+C:\Users\ADM\Desktop\TRABALHO_C_SHARP\Trabalho_c_sharp\Info\Info\obj\Debug\Info.frmPrincipal.resources
+C:\Users\ADM\Desktop\TRABALHO_C_SHARP\Trabalho_c_sharp\Info\Info\obj\Debug\Info.FrmProduto.resources
+C:\Users\ADM\Desktop\TRABALHO_C_SHARP\Trabalho_c_sharp\Info\Info\obj\Debug\Info.FrmProdutosPorCategoria.resources
+C:\Users\ADM\Desktop\TRABALHO_C_SHARP\Trabalho_c_sharp\Info\Info\obj\Debug\Info.FrmRelatorioProdutos.resources
+C:\Users\ADM\Desktop\TRABALHO_C_SHARP\Trabalho_c_sharp\Info\Info\obj\Debug\Info.FrmRelatorioProdutosCategoria.resources
+C:\Users\ADM\Desktop\TRABALHO_C_SHARP\Trabalho_c_sharp\Info\Info\obj\Debug\Info.FrmSplash.resources
+C:\Users\ADM\Desktop\TRABALHO_C_SHARP\Trabalho_c_sharp\Info\Info\obj\Debug\Info.FrmVenda.resources
+C:\Users\ADM\Desktop\TRABALHO_C_SHARP\Trabalho_c_sharp\Info\Info\obj\Debug\Info.Properties.Resources.resources
+C:\Users\ADM\Desktop\TRABALHO_C_SHARP\Trabalho_c_sharp\Info\Info\obj\Debug\Info.csproj.GenerateResource.Cache

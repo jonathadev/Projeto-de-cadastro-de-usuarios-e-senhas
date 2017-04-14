@@ -1,0 +1,13 @@
+CREATE TABLE tb_usuario (usuario varchar(50) NOT NULL UNIQUE, senha varchar(50) NOT NULL, id_pessoa int NOT NULL, PRIMARY KEY (id_pessoa));
+
+CREATE TABLE tb_pessoa_juridica (cnpj varchar(30) NOT NULL UNIQUE, inscricao varchar(30) NOT NULL UNIQUE, razao_social varchar(200) NOT NULL, id_pessoa int NOT NULL, PRIMARY KEY (id_pessoa));
+
+CREATE TABLE tb_pessoa_fisica (cpf varchar(20) NOT NULL UNIQUE, rg varchar(20) NOT NULL UNIQUE, data_nascimento date, pai varchar(200), mae varchar(200), id_pessoa int NOT NULL, PRIMARY KEY (id_pessoa));
+
+CREATE TABLE tb_pessoa (id_pessoa int IDENTITY(1, 1) NOT NULL, nome varchar(200) NOT NULL, telefone varchar(30), email varchar(200), PRIMARY KEY (id_pessoa));
+
+ALTER TABLE tb_pessoa_fisica ADD CONSTRAINT FKtb_pessoa_493253 FOREIGN KEY (id_pessoa) REFERENCES tb_pessoa (id_pessoa);
+
+ALTER TABLE tb_pessoa_juridica ADD CONSTRAINT FKtb_pessoa_266428 FOREIGN KEY (id_pessoa) REFERENCES tb_pessoa (id_pessoa);
+
+ALTER TABLE tb_usuario ADD CONSTRAINT FKtb_usuario41635 FOREIGN KEY (id_pessoa) REFERENCES tb_pessoa (id_pessoa);

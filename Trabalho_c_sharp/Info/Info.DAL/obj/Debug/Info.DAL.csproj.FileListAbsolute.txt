@@ -1,0 +1,18 @@
+C:\Users\ADM\Documents\Visual Studio 2013\Projects\Info\Info.DAL\bin\Debug\Info.DAL.dll.config
+C:\Users\ADM\Documents\Visual Studio 2013\Projects\Info\Info.DAL\bin\Debug\Info.DAL.dll
+C:\Users\ADM\Documents\Visual Studio 2013\Projects\Info\Info.DAL\bin\Debug\Info.DAL.pdb
+C:\Users\ADM\Documents\Visual Studio 2013\Projects\Info\Info.DAL\obj\Debug\Info.DAL.dll
+C:\Users\ADM\Documents\Visual Studio 2013\Projects\Info\Info.DAL\obj\Debug\Info.DAL.pdb
+C:\Users\ADM\Documents\Visual Studio 2013\Projects\Info\Info.DAL\obj\Debug\Info.DAL.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info.DAL\bin\Debug\Info.DAL.dll.config
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info.DAL\bin\Debug\Info.DAL.dll
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info.DAL\bin\Debug\Info.DAL.pdb
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info.DAL\obj\Debug\Info.DAL.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info.DAL\obj\Debug\Info.DAL.dll
+C:\Users\user\Desktop\JONATHA\FACULDADE\C SHARP\Info\Info.DAL\obj\Debug\Info.DAL.pdb
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info.DAL\bin\Debug\Info.DAL.dll.config
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info.DAL\bin\Debug\Info.DAL.dll
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info.DAL\bin\Debug\Info.DAL.pdb
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info.DAL\obj\Debug\Info.DAL.csprojResolveAssemblyReference.cache
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info.DAL\obj\Debug\Info.DAL.dll
+C:\Users\ADM\Desktop\TRABALHO C SHARP\TRABALHO BASEADO NO SISTEMA DO DENIS LIMA\TRABALHO PRA ENTREGAR PRONTO\Info 150716\Info\Info.DAL\obj\Debug\Info.DAL.pdb

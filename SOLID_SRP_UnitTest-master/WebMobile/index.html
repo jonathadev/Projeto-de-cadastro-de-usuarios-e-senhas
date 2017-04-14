@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <!-- Your app title -->
+    <title>Aplicação Mobile</title>
+   
+
+   <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- para brownser não barrar a aplicacao -->
+   <meta http-equiv="Content-type" content="text/html; charset=UTF-8"><!-- para brownser não barrar a aplicacao-->
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"> <!-- aparencia -->
+
+
+
+</head>
+<body class="contanier" ng-app="app">
+    <div ng-controller="AlunoController" class="well">
+
+
+
+        <div ng-class="{'panel panel-primary':iniciado, 'panel panel-danger':!iniciado}">
+            <div class="panel-heading">
+                <div class="header-inner">
+                    <h1 style="text-align:center; color: blue;">
+                        Tentando - OA
+                        PARTE 1 (frontend json+api) 04/10/2016
+                        1 table/bootstrap p/ mostrar o retorno da lista (json) desenvolvimento WEB com Angular JS
+                    </h1>
+                </div>
+                <h3 class="panel-title">Situação da tarefa</h3>
+            </div>
+            <div class="panel-body">
+                <p ng-show="iniciado">Tarefa em andamento!</p>
+                <p ng-hide="iniciado">Tarefa finalizada!</p>
+                <p ng-if="!iniciado">Aguardando a próxima tarefa!</p>
+                <p>Preço do projeto: {{valor | currency : 'R$ '}}</p>
+                <p>Data de hoje: {{hoje | date: 'dd/MM/yyyy'}}</p>
+            </div>
+        </div>
+        <div>
+            <label>Definior Preço:</label>
+            <input type="number" id="valor" name="valor" ng-model="valor">
+        </div>
+
+        <!--<h3>  {{retorno}}</h3><!-- preciso trabalhar isso aqui lista -->
+
+        <h3>Alunos Cadastrados</h3>
+        <br><br>
+        <div>
+            <label>Filtrar por nome:</label>
+            <input type="text" ng-model="filtro">
+        </div>
+        <div class="table-responsive">
+            <table class="table table-striped" ng-controller="AlunoController" border="1">
+                <tr>
+                    <th ng-click="ordenarPorId()">
+                        Id
+                    </th>
+                    <th ng-click="ordenarPorNome()">
+                        Nome
+                    </th>
+                    <th ng-click="ordenarPorEmail()">
+                        E-mail
+                    </th>
+                    <th ng-click="ordenarPorDataNascimento()">
+                        Data de nascimento
+                    </th>
+                    <th ng-click="ordenarPorRa()">
+                        RA
+                    </th>
+                    <th ng-click="ordenarPorCpf()">
+                        CPF
+                    </th>
+                </tr>
+                <br>
+                <br>
+                <tr ng-repeat="x in retorno  | filter : filtro">
+                    <td>{{x.id}}</td>
+                    <td>{{x.nome}}</td>
+                    <td>{{x.email}}</td>
+                    <td>{{x.dataNascimento | date: 'dd/MM/yyyy'}}</td>
+                    <td>{{x.ra}}</td>
+                    <td>{{x.cpf}}</td>
+                </tr>
+            </table>
+        </div>
+
+
+        <button ng-show="iniciado" ng-click="finalizar()" class="btn btn-danger">
+            Finalizar
+        </button>
+        <button ng-hide="iniciado" ng-click="iniciar()" class="btn btn-success">
+            Iniciar
+        </button>
+
+        <!--<div class="well" ng-controller="PrevisaoTempoController">
+                </div>-->
+
+    </div>
+    <div class="container-fluid container-fixed-lg footer">
+        <div class="copyright sm-text-center">
+            <p class="small no-margin pull-left sm-pull-reset">
+                <span class="hint-text">Copyright @ 2016  Jônatha & Marcos</span>
+            </p>
+        </div>
+    </div>
+
+    <!-- Path to Framework7 Library JS-->
+
+    <script src="js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <!--  <script src="js/my-app.js"></script>-->
+
+    <script src="js/my-app.js"></script>
+
+    <script src="scripts/angular.min.js"></script>
+    <script src="App/main.js"></script>
+    <script src="App/Controllers/AlunoController.js"></script>
+</body>
+</html>              
