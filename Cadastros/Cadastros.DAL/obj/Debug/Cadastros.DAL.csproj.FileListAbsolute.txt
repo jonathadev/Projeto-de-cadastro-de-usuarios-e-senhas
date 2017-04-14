@@ -1,0 +1,5 @@
+c:\users\adm\documents\visual studio 2013\Projects\Cadastros\Cadastros.DAL\bin\Debug\Cadastros.DAL.dll
+c:\users\adm\documents\visual studio 2013\Projects\Cadastros\Cadastros.DAL\bin\Debug\Cadastros.DAL.pdb
+c:\users\adm\documents\visual studio 2013\Projects\Cadastros\Cadastros.DAL\obj\Debug\Cadastros.DAL.dll
+c:\users\adm\documents\visual studio 2013\Projects\Cadastros\Cadastros.DAL\obj\Debug\Cadastros.DAL.pdb
+c:\users\adm\documents\visual studio 2013\Projects\Cadastros\Cadastros.DAL\bin\Debug\Cadastros.DAL.dll.config

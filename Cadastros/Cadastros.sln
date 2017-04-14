@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastros", "Cadastros\Cadastros.csproj", "{CC72B4B8-6421-4866-B94B-EE737E7B0DFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastros.DAL", "Cadastros.DAL\Cadastros.DAL.csproj", "{B7542C9C-0F9F-45C2-97C9-4288C0337EBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC72B4B8-6421-4866-B94B-EE737E7B0DFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC72B4B8-6421-4866-B94B-EE737E7B0DFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC72B4B8-6421-4866-B94B-EE737E7B0DFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC72B4B8-6421-4866-B94B-EE737E7B0DFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7542C9C-0F9F-45C2-97C9-4288C0337EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7542C9C-0F9F-45C2-97C9-4288C0337EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7542C9C-0F9F-45C2-97C9-4288C0337EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7542C9C-0F9F-45C2-97C9-4288C0337EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

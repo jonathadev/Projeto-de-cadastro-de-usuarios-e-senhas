@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="db_cadastros" Class="CadastrosDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;Initial Catalog=db_cadastros;Integrated Security=True" SettingsObjectName="Cadastros.DAL.Properties.Settings" SettingsPropertyName="db_cadastrosConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tb_categoria" Member="Categorias">
+    <Type Name="Categoria">
+      <Column Name="id_categoria" Member="Codigo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="descricao_categoria" Member="Descricao" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Categoria_Cadastro" Member="Cadastros" ThisKey="Codigo" OtherKey="CodigoCategoria" Type="Cadastro" />
+    </Type>
+  </Table>
+  <Table Name="dbo.td_cadastros" Member="Cadastros">
+    <Type Name="Cadastro">
+      <Column Name="id_cadastros" Member="Codigo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="login_cadastros" Member="Login" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="senha_cadastros" Member="Senha" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="email_cadastros" Member="Email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="descricao_cadastros" Member="Descricao" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="id_categoria" Member="CodigoCategoria" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Categoria_Cadastro" Member="Categoria" ThisKey="CodigoCategoria" OtherKey="Codigo" Type="Categoria" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tb_pessoa_fisica" Member="PessoaFisicas">
+    <Type Name="PessoaFisica">
+      <Column Name="cpf" Member="CPF" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="rg" Member="RG" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="data_nascimento" Member="DataNascimento" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="pai" Member="NomePai" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="mae" Member="NomeMae" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="id_pessoa" Member="CodigoPessoa" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="tb_pessoa_tb_pessoa_fisica" Member="Pessoa" ThisKey="CodigoPessoa" OtherKey="Codigo" Type="Pessoa" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tb_pessoa_juridica" Member="PessoaJuridicas">
+    <Type Name="PessoaJuridica">
+      <Column Name="cnpj" Member="CNPJ" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="inscricao" Member="InscricaoEstadual" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="razao_social" Member="RazaoSocial" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="id_pessoa" Member="CodigoPessoa" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="tb_pessoa_tb_pessoa_juridica" Member="Pessoa" ThisKey="CodigoPessoa" OtherKey="Codigo" Type="Pessoa" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tb_usuario" Member="Usuarios">
+    <Type Name="Usuario">
+      <Column Name="usuario" Member="NomeUsuario" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="senha" Member="Senha" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="id_pessoa" Member="CodigoPessoa" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="tb_pessoa_tb_usuario" Member="Pessoa" ThisKey="CodigoPessoa" OtherKey="Codigo" Type="Pessoa" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tb_pessoa" Member="Pessoas">
+    <Type Name="Pessoa">
+      <Column Name="id_pessoa" Member="Codigo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nome" Member="Nome" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="telefone" Member="Telefone" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="email" Member="Email" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Association Name="tb_pessoa_tb_pessoa_fisica" Member="PessoaFisica" ThisKey="Codigo" OtherKey="CodigoPessoa" Type="PessoaFisica" Cardinality="One" />
+      <Association Name="tb_pessoa_tb_pessoa_juridica" Member="PessoaJuridica" ThisKey="Codigo" OtherKey="CodigoPessoa" Type="PessoaJuridica" Cardinality="One" />
+      <Association Name="tb_pessoa_tb_usuario" Member="Usuario" ThisKey="Codigo" OtherKey="CodigoPessoa" Type="Usuario" Cardinality="One" />
+    </Type>
+  </Table>
+</Database>

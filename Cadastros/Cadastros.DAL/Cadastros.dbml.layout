@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 10.25" name="Cadastros">
+  <DataContextMoniker Name="/CadastrosDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ef0bd35e-6319-49fd-b3c3-d6195e17ca75" absoluteBounds="0.75, 1.25, 2, 1.1939925130208338">
+      <DataClassMoniker Name="/CadastrosDataContext/Categoria" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5863d717-b64e-4e07-830e-814811080a41" absoluteBounds="0.765, 1.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9ed499e8-4b7d-4636-83a2-a011b57a9ba9" absoluteBounds="3.5, 0.875, 2, 1.9631982421874998">
+      <DataClassMoniker Name="/CadastrosDataContext/Cadastro" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7d91c07a-fc84-4172-8fb8-dae2877cbfb3" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.84699625651042); (3.5 : 1.84699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CadastrosDataContext/Categoria/Categoria_Cadastro" />
+      <nodes>
+        <classShapeMoniker Id="ef0bd35e-6319-49fd-b3c3-d6195e17ca75" />
+        <classShapeMoniker Id="9ed499e8-4b7d-4636-83a2-a011b57a9ba9" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="9acfef25-a966-4dab-bf5e-8fa043255661" absoluteBounds="5.5, 5.75, 2, 1.9631982421874987">
+      <DataClassMoniker Name="/CadastrosDataContext/PessoaFisica" />
+      <nestedChildShapes>
+        <elementListCompartment Id="aaeba0a7-5262-4f4d-9ac5-5ffc5192b94d" absoluteBounds="5.5150000000000006, 6.2100000000000009, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="77947670-c57a-45d3-a2a7-57dd6db8708c" absoluteBounds="2.875, 8.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/CadastrosDataContext/PessoaJuridica" />
+      <nestedChildShapes>
+        <elementListCompartment Id="36f4ddd1-36ae-4da8-9bd1-f8d9cc673574" absoluteBounds="2.8900000000000006, 8.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0a13d802-b390-4bf3-ae88-e4573d1b13c0" absoluteBounds="0.5, 5.875, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/CadastrosDataContext/Usuario" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e19c8537-9350-4ae1-b2d7-5efbc6941e9e" absoluteBounds="0.51500000000000012, 6.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3851a581-9cec-4a01-b3ec-c327c34f4a99" absoluteBounds="2.875, 5.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/CadastrosDataContext/Pessoa" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ac784d03-cc9e-4429-af69-73838cddc088" absoluteBounds="2.89, 6.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.875 : 6.53929768880208); (5.5 : 6.53929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CadastrosDataContext/Pessoa/tb_pessoa_tb_pessoa_fisica" />
+      <nodes>
+        <classShapeMoniker Id="3851a581-9cec-4a01-b3ec-c327c34f4a99" />
+        <classShapeMoniker Id="9acfef25-a966-4dab-bf5e-8fa043255661" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.875 : 7.32859537760417); (3.875 : 8.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CadastrosDataContext/Pessoa/tb_pessoa_tb_pessoa_juridica" />
+      <nodes>
+        <classShapeMoniker Id="3851a581-9cec-4a01-b3ec-c327c34f4a99" />
+        <classShapeMoniker Id="77947670-c57a-45d3-a2a7-57dd6db8708c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.875 : 6.56814697265625); (2.5 : 6.56814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CadastrosDataContext/Pessoa/tb_pessoa_tb_usuario" />
+      <nodes>
+        <classShapeMoniker Id="3851a581-9cec-4a01-b3ec-c327c34f4a99" />
+        <classShapeMoniker Id="0a13d802-b390-4bf3-ae88-e4573d1b13c0" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
